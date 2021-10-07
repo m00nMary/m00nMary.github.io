@@ -1,0 +1,92 @@
+<style>
+
+.Header {
+  padding: 80px;
+  text-align: center;
+  background: #D88DF0;
+  color: white;
+}
+
+.Header {
+  padding: 80px;
+  text-align: center;
+  background: #D88DF0;
+}
+
+.links {
+ display: inline-block;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+a:hover {
+ color: purple;
+}
+ul {
+ list-style-type: none;
+ padding: 5px;
+}
+
+.bg-image {
+  background-image: url("SE1.png")
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  margin: 0;
+  font-family: 'Catamaran',sans-serif;
+
+}
+
+.Header h1 {
+  font-size: 40px;
+}
+.Navbar {
+  overflow: hidden;
+  background-color: #493557;
+}
+
+.Navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.Navbar a.right {
+  float: right;
+}
+
+.Navbar a:hover {
+  background-color: #FDE3FF;
+  color: black;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #FDE3FF;
+  padding: 30px;
+}
+
+.main {
+  flex: 70%;
+  background-color: #FDE3FF;
+  padding: 20px;
+}
+.SE {
+  padding: 20px;
+
+}
+</style>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title> Code like a girl </title>
+
+  <link rel="stylesheet" href="style.css">
+  <script>
+      var i = 0; 			// Start Point
+      var images = [];	// Images Array
+      var time = 3000;	// Time Between Switch
+      // Image List
+      images[0] = 'AE.jpg';
+      images[1] = 'BE.png';
+      images[2] = 'CE.jfif';
+      images[3] = 'DE.jpg';
+      images[4] = 'EE.jfif';
+      // Change Image
+      function changeImg(){
+      document.slide.src = images[i];
+      // Check If Index Is Under Max
+      if(i < images.length - 1){
+        // Add 1 to Index
+        i++;
+      } else {
+        // Reset Back To O
+        i = 0;
+      }
+      // Run function every x seconds
+      setTimeout("changeImg()", time);
+      }
+      // Run function when page loads
+      window.onload = changeImg;
+  </script>
+
+</head>
+<body bgcolor="#D8C2F0">
+
+  <div class="Navbar">
+    <a href="Project2.html">Home</a>
+    <a href="About.html">About Coding</a>
+    <a href="formsave.html">Contact</a>
+    <a href="#" class="right">Other Careers</a>
+  </div>
+
+ <div class="image">
+     <img name="slide">
+
+</div>
+
+    <div class="Headertext">
+       <h3>CODING FOR</h3>
+       <h1>YOU MADE EASIER</h1>
+    </div>
+
+   <div class="aboutcoding">
+     <h4> ABOUT CODING </h4>
+     <p>Coding, sometimes called computer programming, is how we communicate with computers. Code tells a computer what actions to take, and writing code is like creating a set of instructions. By learning to write code, you can tell computers what to do or how to behave in a much faster way.If you don’t know the first thing about coding, you’ve come to the right place. We’ve put together a beginner’s tutorial which will give you all the background information you need on coding, before you start learning it for real.It starts with an explanation on the benefits of learning coding. Here, you’ll find out what you’ll be able to do once you know how to work with code. Then, you’ll get a deeper understanding of how coding works, and how the code you write gets converted into an instruction that a computer can ‘understand’. Very satisfying to know!That’s followed by an outline of today’s coding languages. After all, every language has a purpose – some are for the web, others for app development, others for desktop software. You’ll find out why web development is an ideal form of coding to start off with, and then get a full overview of it. You’ll also be introduced to web design and app development.Finally – and most importantly – there’s a step-by-step action plan that will outline the fastest and easiest way to get started in coding, and become a coder in 6 months
+  </div>
+
+ <div class="links">
+ <ul>
+     <a href="https://www.codelikeagirl.com/">visit codelikeagirl site</a>
+ </ul>
+</div>
+
+
+<div class="table">
+    <h2> Benfeits</h2>
+
+  <ol>
+    Can be applied to data visualisation<br>
+    enhances problem sloving skills<br>
+    helps you understand techology better<br>
+  </ol>
+</div>
+
+ </body>
+</html>
